@@ -3,7 +3,7 @@ services:
   tyk-gateway:
     image: docker.tyk.io/tyk-gateway/tyk-gateway:v5.5.0
     ports:
-      - 8080:8080
+      - 7070:7070
     networks:
       - tyk
     volumes:
